@@ -2,6 +2,8 @@
    
 An Artificial Neural Network based Traffic Light Transition Controller for intersections.
 
+![ANN Architecture](https://github.com/raymelon/TrafficLightNeuralNetwork/blob/master/misc/demo.gif)
+
 ## Overview
 
 Given the previous and current light pair, the controller must predict the next light pair.
