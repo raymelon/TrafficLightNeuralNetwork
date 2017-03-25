@@ -41,7 +41,7 @@ Having two inputs and one output, the Neural Network architecture will be based 
 
 - Two input neurons `I1`, `I2`
 - Two hidden layer neurons `H1`, `H2`
-- One output neuron `O`
+- One output neuron `O1`
 
 ![ANN Architecture](https://github.com/raymelon/TrafficLightNeuralNetwork/blob/master/misc/ANNarchi.png)
 
