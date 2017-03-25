@@ -1,6 +1,10 @@
 #  ANN-based Traffic Light Controller
-   
+
 An Artificial Neural Network based Traffic Light Transition Controller for intersections.
+
+| [AppVeyor](https://ci.appveyor.com) | [![Build status](https://ci.appveyor.com/api/projects/status/0ix0yy9mhjm4m5cc?svg=true)](https://ci.appveyor.com/project/raymelon/trafficlightneuralnetwork) |
+| - | - |
+| **[License](https://opensource.org/licenses)** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | |
 
 ![ANN Architecture](https://github.com/raymelon/TrafficLightNeuralNetwork/blob/master/misc/demo.gif)
 
