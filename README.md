@@ -84,6 +84,12 @@ The training data are as follows:
 Using 50 training sets (or repetitions of these in a file) in 1000 epochs is enough for the network to learn.
 
 ## Misc
+
+### Timeline
+- March 19-22, 2017 (Initial Development)
+- March 23, 2017 onwards (Maintenance)
+- March 26, 2017 (GitHub debut)
+
 ### Authors
 | | |
 | - | - |
@@ -94,7 +100,7 @@ Using 50 training sets (or repetitions of these in a file) in 1000 epochs is eno
 |  John Paul Magturo | jp.magturo@gmail.com |
 |  Denzel Rañada | denzeliranada@gmail.com |
 |  Kaiser Sternberg | kaiser.duque629@gmail.com |
-|  Christian Bisnar |
+|  Christian Bisnar | christian_bisnar1551@yahoo.com |
 
 ### License
 
@@ -109,6 +115,3 @@ This project is licensed under [MIT License](https://github.com/raymelon/Traffic
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
