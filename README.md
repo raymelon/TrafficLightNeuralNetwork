@@ -97,7 +97,7 @@ Using 50 training sets (or repetitions of these in a file) in 1000 epochs is eno
 ### Usage
  - To re-train, run [`NeuralNetwork.exe`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/bin/NeuralNetwork.exe).
  
-      *parameters are optional, in case nothing is provided, the defaults are `data/input.csv`, `data/target.csv`, `1000`*
+      * *parameters are optional, in case nothing is provided, the defaults are `data/input.csv`, `data/target.csv`, `1000`*
   ```
   > .\TrafficLightNeuralNetwork\bin> NeuralNetwork.exe <string:input_path> <string:target_path> <int:max_epochs>
   ```
