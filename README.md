@@ -51,13 +51,16 @@ Having two inputs and one output, the Neural Network architecture will be based 
 
 ![ANN Architecture](https://github.com/raymelon/TrafficLightNeuralNetwork/blob/master/misc/ANNarchi.png)
 
-The Logistic Sigmoid equation will be used as the activation function,
+The neural network will be a Feedforward neural network, having
+the Logistic Sigmoid equation as its activation function.
 ```
              1
 S(t) =  __________
                -t
           1 + e
 ```
+
+Training will be done using Gradient Descent Backpropagation.
 
 ### Training
 
