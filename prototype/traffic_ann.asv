@@ -1,0 +1,63 @@
+
+function traffic_ann()
+    % load training data
+    input_data = xlsread('../data/input.csv');
+    target_data = xlsread('../data/target.csv')';
+    
+    % prepare ANN
+    ann = feedforwardnet(100);
+    ann.trainParam.epochs = 1000;
+    ann.trainFcn = 'traingd';
+    ann.performFcn = 'mse';
+    ann.trainParam.showCommandLine = true;
+    
+    % training time!
+    [ann, tr] = train(ann, input_data', target_data);
+    
+    % test inputs
+    test = input_data(1:6,:);               % get first set
+    str_test = sprintf('%f %f\n', test);    % stringified
+    fprintf('Test inputs:\n%s\n', str_test)
+    
+    output = ann(test');                    % raw output
+    output = round(output, 1);              % rounded output
+    output = sprintf('%f\n', output);       % stringified output
+    fprintf('Output values:\n%s\n', output)
+    
+    expected = target_data(1:6);            % get first set
+    expected = sprintf('%f\n', expected);   % stringified
+    fprintf('Expected values:\n%s\n', expected)
+
+    light_pairs = [
+        '../img/crossroadRG.jpg'; 
+        '../img/crossroadRA.jpg'; 
+        '../img/crossroadRR.jpg';
+        '../img/crossroadGR.jpg';
+        '../img/crossroadAR.jpg';
+        '../img/crossroadRR.jpg';
+    ];
+     
+    pause on;
+    
+    prev = 0.6;
+    current = 0.1; 
+    
+    while true
+        
+        next = ann([prev; current]);
+        
+        current = round(current, 1);
+        current = uint8(current * 10);
+        
+        switch
+        
+        a = imread( light_pairs(next,:) );
+        imshow(a); 
+        drawnow;
+        pause(1);
+        
+        prev = current;
+        current = next;
+    end
+    
+end
