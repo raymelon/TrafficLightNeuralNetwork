@@ -7,6 +7,26 @@ namespace TrafficLightsEyEnEn
     {
         static void Main(string[] args)
         {
+            string inputsPath = @"../data/input.csv";
+            string targetsPath = @"../data/target.csv";
+            int maxEpochs = 1000;
+
+            try
+            {
+                if(args[0] != null)
+                    inputsPath = @args[0];
+
+                if(args[1] != null)
+                    targetsPath = @args[1];
+
+                if(args[2] != null)
+                    maxEpochs = Convert.ToInt32(args[2]);
+
+            } catch(IndexOutOfRangeException ex) {
+
+            }
+            
+
             var TrafficNN = new NeuralNetwork();
 
             TrafficNN.HiddenLayers = 1;
@@ -14,12 +34,12 @@ namespace TrafficLightsEyEnEn
             TrafficNN.AllocateNetwork();
 
             TrafficNN.TrainingSize = 300;
-            TrafficNN.LoadInputsFrom(@"../data/input.csv");
-            TrafficNN.LoadTargetsFrom(@"../data/target.csv");
-            TrafficNN.MaxEpochs = 4000;
+            TrafficNN.LoadInputsFrom(inputsPath);
+            TrafficNN.LoadTargetsFrom(targetsPath);
+            TrafficNN.MaxEpochs = maxEpochs;
 
-            Console.WriteLine("Inputs loaded from 'data/input.csv'.");
-            Console.WriteLine("Targets loaded from 'data/target.csv'.");
+            Console.WriteLine("Inputs loaded from '{0}'.", inputsPath);
+            Console.WriteLine("Targets loaded from '{0}'.", targetsPath);
 
             // load saved weights
             // WARNING: comment if training for the first time (no weights file yet)
@@ -30,7 +50,7 @@ namespace TrafficLightsEyEnEn
             TrafficNN.TrainNetwork();
             Console.WriteLine("Training complete.");
 
-            TrafficNN.SaveNetworkTo(@"weights.csv");    // saves optimized weights
+            TrafficNN.SaveNetworkTo(@"../weights.csv");    // saves optimized weights
             Console.WriteLine("Trained network saved to 'data/weights.csv'.");
 
             // test simulation
