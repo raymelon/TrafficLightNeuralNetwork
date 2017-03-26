@@ -1,4 +1,4 @@
 build: off
-before_test:
+build_script:
   - Makefile.cmd
   
