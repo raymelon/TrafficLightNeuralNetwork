@@ -79,7 +79,8 @@ We made sure that these numerical values assigned are in the Logistic Sigmoid's 
 
 The training data are as follows:
 
-| Inputs | | Output |
+| Inputs at [`input.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/input.csv) | | Outputs at 
+   [`target.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/target.csv) |
 |-|-|-|
 | **t - 1** | **t** | **t + 1**
 0.1 | 0.2 | 0.3
@@ -93,6 +94,27 @@ The training data are as follows:
 Using 50 training sets (or repetitions of these in a file) in 1000 epochs is enough for the network to learn.
 
 ## Misc
+
+### Usage
+ - To re-train, run [`NeuralNetwork.exe`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/bin/NeuralNetwork.exe).
+ 
+      *parameters are optional, in case nothing is provided, the defaults are `data/input.csv`, `data/target.csv`, `1000`*
+  ```
+  > .\TrafficLightNeuralNetwork\bin> NeuralNetwork.exe <string:input_path> <string:target_path> <int:max_epochs>
+  ```
+
+ -  [`weights.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/weights.csv) has its weights updated after re-train, with the following format:
+ 
+ | I1 to H1 | I2 to H1 | Bias to H1 | I1 to H2 | I2 to H2 | Bias to H2 |
+ |-|-|-|-|-|-|
+ | H1 to O1 | H2 to O2 | Bias to O2 | none | none | none |
+
+
+ - Training data can be viewed at
+  [`input.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/input.csv) and
+  [`target.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/target.csv)
+
+
 
 ### Timeline
 - March 19-22, 2017 (Initial Development)
