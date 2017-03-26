@@ -87,9 +87,8 @@ The training data are as follows:
 0.2 | 0.3 | 0.4
 0.3 | 0.4 | 0.5
 0.4 | 0.5 | 0.6
-0.5 | 0.6 | 0.7
-0.6 | 0.7 | 0.1
-0.7 | 0.8 | 0.2
+0.5 | 0.6 | 0.1
+0.6 | 0.1 | 0.2
 
 Using 50 training sets (or repetitions of these in a file) in 1000 epochs is enough for the network to learn.
 
