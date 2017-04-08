@@ -79,9 +79,8 @@ We made sure that these numerical values assigned are in the Logistic Sigmoid's 
 
 The training data are as follows:
 
-| Inputs at [`input.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/input.csv) | | Outputs at 
-   [`target.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/target.csv) |
-|-|-|-|
+| Inputs at [`input.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/input.csv) | | Outputs at [`target.csv`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/data/target.csv) |
+|-|-|-
 | **t - 1** | **t** | **t + 1**
 0.1 | 0.2 | 0.3
 0.2 | 0.3 | 0.4
