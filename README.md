@@ -2,14 +2,16 @@
 
 An Artificial Neural Network based Traffic Light Transition Controller for intersections.
 
-| [AppVeyor](https://ci.appveyor.com) | [![Build status](https://ci.appveyor.com/api/projects/status/0ix0yy9mhjm4m5cc?svg=true)](https://ci.appveyor.com/project/raymelon/trafficlightneuralnetwork) |
+| | |
 | - | - |
+| **[AppVeyor](https://ci.appveyor.com)** | [![Build status](https://ci.appveyor.com/api/projects/status/0ix0yy9mhjm4m5cc?svg=true)](https://ci.appveyor.com/project/raymelon/trafficlightneuralnetwork) |
 | **[License](https://opensource.org/licenses)** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | |
+| **[For the Badge](https://github.com/BraveUX/for-the-badge)** | [![forthebadge](http://forthebadge.com/images/badges/made-with-c-sharp.svg)](http://forthebadge.com) |
 
 ![ANN Architecture](https://github.com/raymelon/TrafficLightNeuralNetwork/blob/master/misc/demo.gif)
 
-## Overview
-
+## Overview [![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/designed-in-ms-paint.svg)](http://forthebadge.com)
+ 
 Given the previous and current light pair, the controller must predict the next light pair.
 
 The controller must receive two inputs, 
@@ -91,7 +93,7 @@ The training data are as follows:
 
 Using 50 training sets (or repetitions of these in a file) in 1000 epochs is enough for the network to learn.
 
-## Misc
+## Misc [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
 ### Usage
  - To re-train, run [`NeuralNetwork.exe`](https://github.com/raymelon/TrafficLightNeuralNetwork/tree/master/bin/NeuralNetwork.exe).
@@ -119,7 +121,7 @@ Using 50 training sets (or repetitions of these in a file) in 1000 epochs is eno
 - March 23, 2017 onwards (Maintenance)
 - March 26, 2017 (GitHub debut)
 
-### Authors
+### Authors [![forthebadge](http://forthebadge.com/images/badges/built-by-hipsters.svg)](http://forthebadge.com)
 | | |
 | - | - |
 | **Developers** |
