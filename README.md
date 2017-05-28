@@ -129,7 +129,7 @@ Using 50 training sets (or repetitions of these in a file) in 1000 epochs is eno
 | [Emilson Olaño](https://github.com/EmilsonME) | emilsonbolano@gmail.com |
 | **Contributors** |
 |  [John Paul Magturo](https://github.com/gorejuice) | jp.magturo@gmail.com |
-|  Denzel Rañada | denzeliranada@gmail.com |
+|  [Denzel Rañada](https://github.com/BabyShinta) | denzeliranada@gmail.com |
 |  Kaiser Sternberg | kaiser.duque629@gmail.com |
 |  Christian Bisnar | christian_bisnar1551@yahoo.com |
 
