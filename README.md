@@ -124,16 +124,16 @@ Using 50 training sets (or repetitions of these in a file) in 1000 epochs is eno
 - March 26, 2017 (GitHub debut)
 
 ### Authors [![forthebadge](http://forthebadge.com/images/badges/built-by-hipsters.svg)](http://forthebadge.com)
-| | |
-| - | - |
+| |
+| - |
 | **Developers** |
-| [Raymel Francisco](http://stackoverflow.com/users/4895040/raymelfrancisco) | franciscoraymel@gmail.com |
-| [Emilson Olaño](https://github.com/EmilsonME) | emilsonbolano@gmail.com |
+| [Raymel Francisco](http://stackoverflow.com/users/4895040/raymelfrancisco) |
+| [Emilson Olaño](https://github.com/EmilsonME) |
 | **Contributors** |
-|  [John Paul Magturo](https://github.com/gorejuice) | jp.magturo@gmail.com |
-|  [Denzel Rañada](https://github.com/BabyShinta) | denzeliranada@gmail.com |
-|  Kaiser Sternberg | kaiser.duque629@gmail.com |
-|  Christian Bisnar | christian_bisnar1551@yahoo.com |
+|  [John Paul Magturo](https://github.com/gorejuice) |
+|  [Denzel Rañada](https://github.com/BabyShinta) |
+|  Kaiser Sternberg |
+|  Christian Bisnar |
 
 ### License
 
